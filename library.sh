@@ -1,20 +1,20 @@
 echo ""
 echo ""
 echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
 echo "ARE YOU READY FOR START NOW"
-echo ""
-echo ""
-echo ""
 echo "LET'S SUBSCRIBE PORMES17"
-echo ""
-echo ""
-echo ""
 echo "WAITING FOR STARTED"
-echo ""
-echo ""
-echo ""
+echo "LIBRARY LENGKAP UNTUK MEMUDAHKAN ANDA DALAM PENGINSTALLAN"
+echo "SEHINGGA MENGURANGI RESIKO ERROR PADA SAAT MELAKSANAKAN INSTALASI"
+echo "DUDUK YANG MANIS DAN AKAN SEGERA KITA MULAI"
 
-pkg install && pkg update && pkg upgrade -y
+pkg install -y && pkg update -y && pkg upgrade -y
 pkg install root-repo -y
 pkg install unstable-repo -y
 pkg install x11-repo -y
@@ -157,13 +157,14 @@ pkg install libsigsegv -y
 pkg install libsm -y
 pkg install libsndfile -y
 pkg install libsodium -y
-pkg install libsoup libsoxr -y
+pkg install libsoup -y
+pkg install libsoxr -y
 pkg install libsqlite -y
 pkg install libssh -y
 pkg install libssh2 -y
 pkg install libtalloc -y
 pkg install libtermkey -y
-pkg install libtheora-y
+pkg install libtheora -y
 pkg install libtiff -y
 pkg install libtirpc -y
 pkg install libtool -y
@@ -211,7 +212,6 @@ pkg install termux-keyring -y
 pkg install termux-licenses -y
 pkg install termux-services -y
 pkg install termux-tools -y
-pkg install && pkg update && pkg upgrade -y
 
 echo ""
 echo "ALL DEPENDENCIES LIBRARY OF PACKAGING IS FINISHED"
@@ -219,9 +219,8 @@ echo "DON'T FORGET TO SUBSCRIBE PORMES17"
 echo ""
 echo ""
 echo ""
-echo ""
 echo "ARE YOU PRO NOW"
 echo "SUPPORT ME AND SUBSCRIBE PORMES17"
-echo ""
+echo "JIKA ANDA MERASA BERMANFAAT JANGAN SUNGKAN UNTUK CLICK TOMBOL SUBSCRIBE"
 echo "CODED BY PORMES17"
 exit
