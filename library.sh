@@ -14,7 +14,7 @@ echo "LIBRARY LENGKAP UNTUK MEMUDAHKAN ANDA DALAM PENGINSTALLAN"
 echo "SEHINGGA MENGURANGI RESIKO ERROR PADA SAAT MELAKSANAKAN INSTALASI"
 echo "DUDUK YANG MANIS DAN AKAN SEGERA KITA MULAI"
 
-pkg install -y && pkg update -y && pkg upgrade -y
+pkg install -y
 pkg install root-repo -y
 pkg install unstable-repo -y
 pkg install x11-repo -y
